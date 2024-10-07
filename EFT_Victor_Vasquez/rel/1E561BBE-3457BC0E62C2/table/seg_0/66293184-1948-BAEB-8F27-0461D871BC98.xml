@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66293184-1948-BAEB-8F27-0461D871BC98" name="Director">
+<sourceDDLFile>AC.sql</sourceDDLFile>
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:32 UTC</createdTime>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<importedID>8ECA283E-7235-6C8C-86AC-5713359C5B21</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Director" id="07B530A7-9752-A653-1838-32660DC3B6DB">
+<sourceDDLFile>AC.sql</sourceDDLFile>
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:32 UTC</createdTime>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<importedID>61D72F15-0712-EFA0-B98F-DD1824434C75</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4E7CFBFA-A504-79B4-9344-775FE6764323</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="DDE3A006-0EC7-E1C1-9B61-31867EAB932B">
+<sourceDDLFile>AC.sql</sourceDDLFile>
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:32 UTC</createdTime>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<importedID>3763A029-F4BC-9FBE-55D3-555463953359</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0B98EF43-4416-68CA-A772-8DE5F7E03919</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaInicio" id="747D9A40-F93C-D2D2-723A-31573AAD897B">
+<sourceDDLFile>AC.sql</sourceDDLFile>
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:32 UTC</createdTime>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<importedID>CD517FC3-2F1B-8BA7-03F5-F2E01C6242E8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2E9C6BE7-B2CC-FFFE-5449-2933F2AB8B75</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaFin" id="18894FAB-4843-73E9-6548-678B584A8863">
+<sourceDDLFile>AC.sql</sourceDDLFile>
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:32 UTC</createdTime>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<importedID>E2034D53-C601-D947-028B-5AC33BEEE57D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2E9C6BE7-B2CC-FFFE-5449-2933F2AB8B75</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Academia" id="BB47AE83-A87A-BD28-8795-5D5F713067BC">
+<sourceDDLFile>AC.sql</sourceDDLFile>
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:32 UTC</createdTime>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<importedID>D19CE116-9CE6-1FE8-7E31-32085B7BD7FC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4E7CFBFA-A504-79B4-9344-775FE6764323</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C8CBC94-6761-4E1A-BF43-801147BBF680" referredColumn="4BBC2CCF-42A0-DC81-BDB8-307CFFCEF4FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94BE8934-8658-057D-32F6-389E9637314F" name="Director_PK">
+<sourceDDLFile>AC.sql</sourceDDLFile>
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:32 UTC</createdTime>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<importedID>32CB49B6-316D-4D2A-6466-900049AE362B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07B530A7-9752-A653-1838-32660DC3B6DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48FBC63B-670C-1A37-C778-05EA3A94B91A" name="FK_Director_Academia">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:32 UTC</createdTime>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB47AE83-A87A-BD28-8795-5D5F713067BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

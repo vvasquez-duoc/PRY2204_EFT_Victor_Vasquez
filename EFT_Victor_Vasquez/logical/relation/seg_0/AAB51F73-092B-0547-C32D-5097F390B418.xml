@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Academia_Municipalidad" directorySegmentName="seg_0" id="AAB51F73-092B-0547-C32D-5097F390B418">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:40 UTC</createdTime>
+<generatorID>ED49C9D1-E268-7DFC-8F86-F1E96B680C23</generatorID>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<engineerTo>
+<item key="1E561BBE-AF53-E29D-EA9C-3457BC0E62C2" value="true"/>
+</engineerTo>
+<sourcePk>3739344E-7BEC-1989-18E1-71DB835E50F5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C95BE585-9AB7-6CD1-6265-0093048CC5E4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>725E4CA5-20FC-73F8-CAB2-72AEF0A3A178</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

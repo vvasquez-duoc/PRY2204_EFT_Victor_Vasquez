@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C95BE585-9AB7-6CD1-6265-0093048CC5E4" name="Municipalidad">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:40 UTC</createdTime>
+<generatorID>45931297-34ED-4ED5-AAD4-CEF944C4479F</generatorID>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<engineerTo>
+<item key="1E561BBE-AF53-E29D-EA9C-3457BC0E62C2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Municipalidad" id="D793E400-2A91-D14B-7B29-5BAC02E72FE0">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:40 UTC</createdTime>
+<generatorID>FFD1FA56-2D4A-8F3C-B72F-7186D1A027B5</generatorID>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<engineerTo>
+<item key="1E561BBE-AF53-E29D-EA9C-3457BC0E62C2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4E7CFBFA-A504-79B4-9344-775FE6764323</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="68A7DD9E-0B02-1E18-0B61-EC5499E68716">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:40 UTC</createdTime>
+<generatorID>740122B8-D193-15FC-5B7B-585CBA602FFF</generatorID>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<engineerTo>
+<item key="1E561BBE-AF53-E29D-EA9C-3457BC0E62C2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0B98EF43-4416-68CA-A772-8DE5F7E03919</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="2C42A9C1-34F5-C4ED-4568-2E32FBB79FF0">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:40 UTC</createdTime>
+<generatorID>25F7D38A-927E-30E8-664C-7DDB5300094A</generatorID>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<engineerTo>
+<item key="1E561BBE-AF53-E29D-EA9C-3457BC0E62C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0EEF6310-A4B0-CE17-CE76-5FAAB562EAB7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3739344E-7BEC-1989-18E1-71DB835E50F5" name="Municipalidad PK">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:40 UTC</createdTime>
+<generatorID>05BD8B34-68D7-13BB-574D-5B48412CB47E</generatorID>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<engineerTo>
+<item key="1E561BBE-AF53-E29D-EA9C-3457BC0E62C2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D793E400-2A91-D14B-7B29-5BAC02E72FE0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Formulario_Academia" directorySegmentName="seg_0" id="90B4C36E-F5C6-CCF5-F966-B59B1CA110FE">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:40 UTC</createdTime>
+<generatorID>52AAB6B8-0894-DCAB-7DDD-964FC305F301</generatorID>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<engineerTo>
+<item key="1E561BBE-AF53-E29D-EA9C-3457BC0E62C2" value="true"/>
+</engineerTo>
+<sourcePk>5DABC44D-AF75-F696-3255-5990F6976FD3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>725E4CA5-20FC-73F8-CAB2-72AEF0A3A178</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1E8CFBE8-79BC-7CB3-37C7-02153C26C336</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

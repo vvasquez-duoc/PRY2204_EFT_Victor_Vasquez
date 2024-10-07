@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E8CFBE8-79BC-7CB3-37C7-02153C26C336" name="FormularioPostulacion">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:40 UTC</createdTime>
+<generatorID>7D9492D0-308C-79B3-0204-2BB87815814B</generatorID>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<engineerTo>
+<item key="1E561BBE-AF53-E29D-EA9C-3457BC0E62C2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Formulario" id="670C6F43-E0DC-C94A-D3AF-E918C8DAFF79">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:40 UTC</createdTime>
+<generatorID>66ACF874-512A-A086-8FE2-C30EBD5736A8</generatorID>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<engineerTo>
+<item key="1E561BBE-AF53-E29D-EA9C-3457BC0E62C2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4E7CFBFA-A504-79B4-9344-775FE6764323</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaEnvio" id="C9BD0F5E-79AD-982F-9C76-C59F84ADFEA0">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:40 UTC</createdTime>
+<generatorID>EF17DC22-5C5D-7FD0-0373-7765B20796B5</generatorID>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<engineerTo>
+<item key="1E561BBE-AF53-E29D-EA9C-3457BC0E62C2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2E9C6BE7-B2CC-FFFE-5449-2933F2AB8B75</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CostosPersonal" id="797186F2-74A5-CCBB-C7C9-100F9F46DF5F">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:40 UTC</createdTime>
+<generatorID>EE7A76A1-C0F7-D221-84DE-7004334015B5</generatorID>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<engineerTo>
+<item key="1E561BBE-AF53-E29D-EA9C-3457BC0E62C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>012A0D3A-CEFB-5156-7C98-2328C7AB5FF2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Locaciones" id="CA0940C3-AC5E-627D-2088-0F0F256944AD">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:40 UTC</createdTime>
+<generatorID>6914CEA6-834D-5A2A-659B-B89E0BA4C228</generatorID>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<engineerTo>
+<item key="1E561BBE-AF53-E29D-EA9C-3457BC0E62C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0EEF6310-A4B0-CE17-CE76-5FAAB562EAB7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Insumos" id="BFAB70D1-468E-747C-DB92-95B31E61DAB8">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:40 UTC</createdTime>
+<generatorID>8CA1C630-5989-575C-25D8-8796F16BEABD</generatorID>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<engineerTo>
+<item key="1E561BBE-AF53-E29D-EA9C-3457BC0E62C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0EEF6310-A4B0-CE17-CE76-5FAAB562EAB7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Permisos" id="F57390E8-0D18-F6E1-5CD8-7B50B91C67F7">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:40 UTC</createdTime>
+<generatorID>FABD7959-C2C0-DFE8-CF28-14939F68B757</generatorID>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<engineerTo>
+<item key="1E561BBE-AF53-E29D-EA9C-3457BC0E62C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0EEF6310-A4B0-CE17-CE76-5FAAB562EAB7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Seguridad" id="84024EF1-312C-6697-423A-CAF085895733">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:40 UTC</createdTime>
+<generatorID>7DA58B6E-397F-785D-A679-21C6911E62B0</generatorID>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<engineerTo>
+<item key="1E561BBE-AF53-E29D-EA9C-3457BC0E62C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0EEF6310-A4B0-CE17-CE76-5FAAB562EAB7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Produccion" id="8B8B43ED-0609-D1E8-0C10-1774425D9173">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:40 UTC</createdTime>
+<generatorID>8A8D92E5-5150-E502-BB36-163BFDE68B31</generatorID>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<engineerTo>
+<item key="1E561BBE-AF53-E29D-EA9C-3457BC0E62C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0EEF6310-A4B0-CE17-CE76-5FAAB562EAB7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Academia" id="34F8E77F-7FE9-640A-BBF2-49696492A9CC">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:40 UTC</createdTime>
+<generatorID>90B4C36E-F5C6-CCF5-F966-B59B1CA110FE</generatorID>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<engineerTo>
+<item key="1E561BBE-AF53-E29D-EA9C-3457BC0E62C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6205B273-B993-4EB1-2D0F-BAD03F6D92FB</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4E7CFBFA-A504-79B4-9344-775FE6764323</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="686028E0-4924-26F2-0ED2-0237422BE828" name="FormularioPostulacion PK">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:40 UTC</createdTime>
+<generatorID>BAD3E642-539D-BF04-C597-9B2EF9E0455F</generatorID>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<engineerTo>
+<item key="1E561BBE-AF53-E29D-EA9C-3457BC0E62C2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>670C6F43-E0DC-C94A-D3AF-E918C8DAFF79</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

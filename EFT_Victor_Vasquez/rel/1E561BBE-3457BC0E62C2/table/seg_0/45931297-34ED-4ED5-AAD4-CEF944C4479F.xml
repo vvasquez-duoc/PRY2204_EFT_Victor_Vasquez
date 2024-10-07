@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45931297-34ED-4ED5-AAD4-CEF944C4479F" name="Municipalidad">
+<sourceDDLFile>AC.sql</sourceDDLFile>
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:32 UTC</createdTime>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<importedID>D462D255-3956-6EF4-62BA-7B32C63F703B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Municipalidad" id="FFD1FA56-2D4A-8F3C-B72F-7186D1A027B5">
+<sourceDDLFile>AC.sql</sourceDDLFile>
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:32 UTC</createdTime>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<importedID>690FA007-F596-8747-F392-72C48E3839BC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4E7CFBFA-A504-79B4-9344-775FE6764323</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="740122B8-D193-15FC-5B7B-585CBA602FFF">
+<sourceDDLFile>AC.sql</sourceDDLFile>
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:32 UTC</createdTime>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<importedID>DE0C1831-F09D-16FF-1541-E29F8D6C8D5B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0B98EF43-4416-68CA-A772-8DE5F7E03919</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="25F7D38A-927E-30E8-664C-7DDB5300094A">
+<sourceDDLFile>AC.sql</sourceDDLFile>
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:32 UTC</createdTime>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<importedID>C3F65869-5F89-4E95-970E-40CB34693202</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0EEF6310-A4B0-CE17-CE76-5FAAB562EAB7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05BD8B34-68D7-13BB-574D-5B48412CB47E" name="Municipalidad_PK">
+<sourceDDLFile>AC.sql</sourceDDLFile>
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:32 UTC</createdTime>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<importedID>34275068-0CCB-60DA-8BC7-3D551578DC20</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFD1FA56-2D4A-8F3C-B72F-7186D1A027B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

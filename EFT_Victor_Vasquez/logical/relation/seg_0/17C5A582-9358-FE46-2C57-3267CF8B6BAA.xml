@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Turno_Profesor" directorySegmentName="seg_0" id="17C5A582-9358-FE46-2C57-3267CF8B6BAA">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-10-07 02:35:40 UTC</createdTime>
+<generatorID>E7B9D2F6-D874-38DD-A6BF-7D1F8181C51C</generatorID>
+<ownerDesignName>EFT_Victor_Vasquez</ownerDesignName>
+<engineerTo>
+<item key="1E561BBE-AF53-E29D-EA9C-3457BC0E62C2" value="true"/>
+</engineerTo>
+<sourcePk>CF3D8AE3-30E0-01E3-ABD3-08322D9ED3D4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>30EA7C2C-5504-A501-8A78-9888505DBA6F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9C6D3315-9CEF-EDA3-8954-F33DD3AE1D0A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
